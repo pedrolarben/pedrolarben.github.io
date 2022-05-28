@@ -2423,10 +2423,15 @@ input, select, textarea {
 			font-weight: 350;
 			margin-bottom: 0%;
 			font-size: 75%;
-			width: 75%;
+			width: 75%; 
+			
 		}
-	
+
+		
 		.study > .subtitle > .grade{
+			font-weight: 400;
+		}
+		td.grade{
 			font-weight: 400;
 		}
 
@@ -2440,6 +2445,10 @@ input, select, textarea {
 			padding-left: 2em;
 			margin-bottom: 0%;
 			font-size: 85%;
+		}
+
+		.study > .relevant-courseworks > table{
+			width: 78%; 
 		}
 
 		.study > .relevant-courseworks > .title{
