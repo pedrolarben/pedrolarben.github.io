@@ -2496,3 +2496,8 @@ input, select, textarea {
 	width: 3em;
 	padding-right: 0.25em;
 }
+
+/* Skills */
+.skill-category{
+	margin-bottom: 0em;
+}
