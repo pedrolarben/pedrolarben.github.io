@@ -2399,66 +2399,97 @@ input, select, textarea {
 
 
 /* Studies */
-	.studies{
-		margin-top: 1em;
-		margin-bottom: 1em;
-	}
-	
-	.study {
-		margin-top: 0em;
-		padding-bottom: 0.5em;
-		padding-top: 0em;
-		line-height: 1.5;
+.studies{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
 
-	}
+.languages{
+	padding-top: 0em;
+}
+.languages .title{
+	margin-bottom: 0;
+}
 
-		.study > .title {
-			font-weight: 400;
-			color: #363636;
-			margin-bottom: 0;
-			/* letter-spacing: -0.015em; */
-		}
+.languages .subtitle{
+	margin-bottom: 0;
+}
 
-		.study > .subtitle{
-			font-weight: 350;
-			margin-bottom: 0%;
-			font-size: 75%;
-			width: 75%; 
-			
-		}
+.study {
+	padding: 0.5em;
+	background: rgba(255, 255, 255, 0.03);
+	border-radius: 8px;
+	transition: all 0.2s ease;
+}
 
-		
-		.study > .subtitle > .grade{
-			font-weight: 400;
-		}
-		td.grade{
-			font-weight: 400;
-		}
+.study:hover {
+	background: rgba(255, 255, 255, 0.05);
+}
 
-		.study > .description {
-			padding-left: 2em;
-			margin-bottom: 0%;
-			font-size: 85%;
-		}
+.study .title {
+	font-size: 1em;
+	font-weight: 500;
+	color: #363636;
+	margin-bottom: 0;
+}
 
-		.study > .relevant-courseworks{
-			padding-left: 2em;
-			margin-bottom: 0%;
-			font-size: 85%;
-		}
+.study-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 0.5em;
+	color: #aaa;
+}
 
-		.study > .relevant-courseworks > table{
-			width: 78%; 
-		}
+.study-info {
+	text-align: right;
+}
 
-		.study > .relevant-courseworks > .title{
-			font-weight: 400;
-			margin-bottom: 0%;
-		}
+.study .period {
+	color: #888;
+}
 
-		.study > .relevant-courseworks > .course{
-			margin-bottom: 0%;
-		}
+.study .grade {
+	color: #4a9eff;
+	margin-left: 1em;
+}
+
+.study .description {
+	color: #888;
+	line-height: 1.6;
+	margin: 0em 0;
+}
+
+.relevant-courseworks {
+	margin-top: 0em;
+	padding: 0.5em 1.5em	;
+	background: #f4f4f4;
+	border-radius: 6px;
+}
+
+.relevant-courseworks .title {
+	font-size: 0.6em;
+	/* color: #999; */
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-bottom: 0.25em;
+}
+
+.relevant-courseworks table {
+	width: 100%;
+	margin-bottom: 0em;
+}
+
+.relevant-courseworks td {
+	padding: 0 0;
+	/* color: #888; */
+}
+
+.relevant-courseworks td:last-child {
+	text-align: right;
+	/* color: #4a9eff; */
+	white-space: nowrap;
+}
 
 .arrow {
 	display: block;
@@ -2497,7 +2528,14 @@ input, select, textarea {
 	padding-right: 0.25em;
 }
 
+.subtitle{
+	margin-bottom: 0.5em;
+}
 /* Skills */
 .skill-category{
 	margin-bottom: 0em;
+}
+
+.skill-list{
+	font-size: 75%;
 }
