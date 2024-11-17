@@ -2450,8 +2450,9 @@ input, select, textarea {
 }
 
 .study .grade {
-	color: #4a9eff;
+	color: #aaa;
 	margin-left: 1em;
+	font-weight: 500;
 }
 
 .study .description {
@@ -2487,7 +2488,7 @@ input, select, textarea {
 
 .relevant-courseworks td:last-child {
 	text-align: right;
-	/* color: #4a9eff; */
+	color: #aaa;
 	white-space: nowrap;
 }
 
